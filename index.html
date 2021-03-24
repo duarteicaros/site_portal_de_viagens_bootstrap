@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- CSS Externo-->
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Portal de Viagens - Bootstrap</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row pb-2 pt-3 fixed-top" id="menu">
+            <div class="col-md-4 d-flex">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" id="logo" href="#destino">PORTAL DE VIAGENS</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-8 justify-content-end">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Alterna navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" style="margin-top: -0.4rem;"
+                        id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="#destino">DESTINO<span class="sr-only"></span></a>
+                            <a class="nav-item nav-link active" href="#form">VALORES<span class="sr-only"></span></a>
+                            <a class="nav-item nav-link active" href="#form">CONTATO<span class="sr-only"></span></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row justify-content-center destino" id="destino" >
+            <div class="col-md-12 d-flex">
+                <img src="/images/nave.png" class="img-fluid mx-auto img" style="width: 40%" alt="Imagem responsiva">
+            </div>
+        </div>
+        <div class="row pt-5 justify-content-center destino">
+            <div class="col-md-10 justify-content-center">
+                <h1 class="text-center pt-2 pb-3">AS MELHORES NAVES!</h1>
+                <p class="text-center pt-2 pb-5 p-destino">
+                    Preços especiais para planetas da federação galáctica. Visite ainda universos, dimensões e
+                    realizadades alternativas!
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row mt-5 mb-5 justify-content-center" id="form">
+            <div class="col-md-12" >
+                <h2 class="text-center mb-2" id="contato">CONSULTAR VALORES</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" id="valores">
+            <div class="col-md-6">
+                <form class="">
+                    <div class="form-row">
+                        <div class="form-group col-md">
+                            <!--<label for="inputPartida">Origem</label>-->
+                            <input type="text" class="form-control" id="inputOrigem" placeholder="Origem">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md">
+                            <!--<label for="inputPartida">Destino</label>-->
+                            <input type="text" class="form-control" id="inputDestino" placeholder="Destino">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md">
+                            <label for="inputPartida" class="label">Partida</label>
+                            <input type="date" class="form-control" id="inputPartida">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md">
+                            <label for="inputVolta" class="label">Volta</label>
+                            <input type="date" class="form-control" id="inputVolta">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group ">
+                            <button type="submit" class="btn ml-1">Consultar</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
